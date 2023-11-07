@@ -1,0 +1,102 @@
+body { 
+  font-family: 'Arial', sans-serif; 
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2023-01/1674275515_catherineasquithgallery-com-p-sero-buro-malinovii-fon-foto-45.jpg) ; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  margin: 10; 
+  padding: 20px; 
+}
+
+.task-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(73, 4, 73);
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.task-text {
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+
+button.glow-on-hover, button.glow-on-hover2, button.glow-on-hover-delete {
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #1241c3;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-left: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button.glow-on-hover:hover, button.glow-on-hover2:hover, button.glow-on-hover-delete:hover {
+  background: #87fb;
+}
+
+
+button.glow-on-hover-delete {
+  background: #dd0909;
+}
+
+button.glow-on-hover-delete:hover {
+  background: #ff4444;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+button.qwerty, button.qwerty1 {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.qwerty {
+  background: #87fb;
+  color: #fff;
+}
+
+button.qwerty:hover {
+  background: #9b59b6;
+}
+
+button.qwerty1 {
+  background: #87fb;
+  color: #fff;
+}
+
+button.qwerty1:hover {
+  background: #5dade2;
+}
+
+
+h1 {
+  text-align: center;
+}
